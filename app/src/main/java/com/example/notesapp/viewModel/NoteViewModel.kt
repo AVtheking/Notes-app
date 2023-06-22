@@ -31,10 +31,8 @@ class NoteViewModel(
             repository.deleteNote(note)
         }
     }
-    fun getAllNote()
-    {
-        repository.getallNotes()
-    }
+    fun getAllNote()=repository.getallNotes()
+
     fun searchNote(query: String?)=repository.searchNote(query)
 
 }

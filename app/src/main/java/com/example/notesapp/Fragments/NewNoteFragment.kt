@@ -66,6 +66,7 @@ class newNoteFragment : Fragment(R.layout.fragment_new_note) {
 
   }
 
+    @Deprecated("Deprecated in Java")
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         menu.clear()
         inflater.inflate(R.menu.menu_new_note,menu)

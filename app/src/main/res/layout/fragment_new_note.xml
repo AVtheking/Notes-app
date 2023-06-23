@@ -7,6 +7,7 @@
     android:id="@+id/frameLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient"
     tools:context=".Fragments.newNoteFragment">
 
     <androidx.cardview.widget.CardView
@@ -17,9 +18,10 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:background="@drawable/gradient2"
         android:layout_marginBottom="16dp"
-        android:elevation="8dp"
-        app:cardCornerRadius="5dp"
+        android:elevation="12dp"
+        app:cardCornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,6 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="16dp"
+            android:background="@drawable/gradient2"
             android:orientation="vertical">
             <EditText
                 android:layout_width="match_parent"
@@ -48,11 +51,12 @@
             android:layout_height="match_parent"
             android:id="@+id/editNoteBody"
             android:layout_marginTop="20dp"
+
             android:hint="type something"
             android:gravity="start|top"
             android:inputType="textMultiLine"
             android:textColor="@color/black"
-            android:textColorHint="#2f6882"
+            android:textColorHint="#3099C6"
             android:textSize="16sp"/>
 
         </LinearLayout>
